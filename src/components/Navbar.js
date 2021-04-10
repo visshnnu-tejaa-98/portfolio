@@ -38,19 +38,19 @@ const Navbar = () => {
 
 			<ul className='sidenav' id='mobile-demo'>
 				<li>
-					<Link to='/'>Home</Link>
+					<a href='#navbar'>Home</a>
 				</li>
 				<li>
-					<Link to='/'>About</Link>
+					<a href='#about'>About</a>
 				</li>
 				<li>
-					<Link to='/'>Skills</Link>
+					<a href='#skills'>Skills</a>
 				</li>
 				<li>
-					<Link to='/'>Projects</Link>
+					<a href='#projects'>Projects</a>
 				</li>
 				<li>
-					<Link to='/'>Contact</Link>
+					<a href='/#contact'>Contact</a>
 				</li>
 			</ul>
 		</div>

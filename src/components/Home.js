@@ -16,10 +16,16 @@ const Home = () => {
 					<span className='profession'>--a Web Developer</span>
 				</p>
 				<p className='projects-tagline'>
-					Check My Projects Here <i className='material-icons down'>keyboard_arrow_down</i>
+					Check My Projects and Resume <i className='material-icons down'>keyboard_arrow_down</i>
 				</p>
 				<a className='waves-effect waves-light btn brown mb-5' href='#projects'>
-					<i className='material-icons right'>code</i>button
+					<i className='material-icons right'>code</i>My Projects
+				</a>
+				<a
+					className='waves-effect waves-light btn brown mb-5 ml-3'
+					href='https://drive.google.com/file/d/11zQGtpBOjesZZqFsFmAuhLLVJCj3HFaq/view?usp=sharing'
+				>
+					<i className='material-icons right'>code</i>Resume
 				</a>
 			</div>
 		</div>

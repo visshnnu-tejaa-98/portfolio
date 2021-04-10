@@ -51,14 +51,8 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer-copyright brown darken-3'>
-					<div className='container'>
+					<div className='container center'>
 						Designed by Visshnnu Tejaa © {new Date().getFullYear()} All Rights Reserved
-						<a
-							className='grey-text text-lighten-4 right'
-							href='https://github.com/visshnnu-tejaa-98'
-						>
-							Github
-						</a>
 					</div>
 				</div>
 			</footer>
