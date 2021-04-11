@@ -1,9 +1,15 @@
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 const Footer = () => {
+	useEffect(() => {
+		const AOS = window.AOS;
+		AOS.init({
+			duration: 1000,
+		});
+	});
 	return (
 		<div className='footer'>
 			<footer className='page-footer brown '>
-				<div className='container'>
+				<div className='container' data-aos='fade-up'>
 					<div className='row'>
 						<div className='col l6 s12'>
 							<h5 className='white-text bold'>Visshnnu Tejaa</h5>

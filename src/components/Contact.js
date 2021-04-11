@@ -74,6 +74,16 @@ const Contact = () => {
 					</form>
 				</div>
 			</div>
+			<div className='center mt-3 contact-details'>
+				<div>
+					<i class='material-icons'>phone</i>
+					<span>7619352192</span>
+				</div>
+				<div>
+					<i class='material-icons'>email</i>
+					<span>chilamakurvishnu@gmail.com</span>
+				</div>
+			</div>
 		</div>
 	);
 };
