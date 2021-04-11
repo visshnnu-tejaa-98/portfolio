@@ -1,6 +1,13 @@
+import React, { useEffect } from 'react';
 const About = () => {
+	useEffect(() => {
+		const AOS = window.AOS;
+		AOS.init({
+			duration: 1000,
+		});
+	});
 	return (
-		<div className='about brown lighten-5 py-3 scale-up-center' id='about'>
+		<div className='about brown lighten-5 py-3 scale-up-center' data-aos='zoom-in-up' id='about'>
 			<div className='row container'>
 				<div className='col s12 l10 offset-l1'>
 					<h1 className='cursive-1 center brown-text scale-up-center '>About Me</h1>

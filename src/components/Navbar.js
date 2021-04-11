@@ -50,9 +50,15 @@ const Navbar = () => {
 					<a href='#projects'>Projects</a>
 				</li>
 				<li>
-					<a href='/#contact'>Contact</a>
+					<a href='#contact'>Contact</a>
 				</li>
 			</ul>
+			<a
+				href='#home'
+				className='btn-floating btn-large waves-effect waves-light brown lighten-2 gototop pulse'
+			>
+				<i class='material-icons'>arrow_upward</i>
+			</a>
 		</div>
 	);
 };

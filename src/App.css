@@ -47,7 +47,21 @@ Padding and margin
 .ml-3 {
 	margin-left: 3%;
 }
+.ml-10 {
+	margin-left: 10%;
+}
 
+/* 
+/////////////////////
+Navbar
+///////////////////// 
+*/
+
+.gototop {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
 /* 
 /////////////////////
 Home
@@ -92,7 +106,7 @@ Home
 	font-size: 1.5rem;
 	margin-top: 0;
 }
-.slide-bottom {
+/* .slide-bottom {
 	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -123,8 +137,8 @@ Home
 		-ms-transform: translateY(0);
 		-o-transform: translateY(0);
 	}
-}
-.scale-up-center {
+} */
+/* .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 	animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -147,7 +161,7 @@ Home
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
-}
+} */
 /* 
 /////////////////////
 About
@@ -171,7 +185,7 @@ skills
 	display: flex;
 	justify-content: center;
 }
-.tilt-in-top-1 {
+/* .tilt-in-top-1 {
 	-webkit-animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	animation: tilt-in-top-1 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -198,15 +212,19 @@ skills
 		transform: rotateY(0deg) translateY(0) skewY(0deg);
 		opacity: 1;
 	}
-}
+} */
 /* 
 /////////////////////
 Projects
 ///////////////////// 
 */
+.filter-msg {
+	font-size: 1.2rem;
+}
 
 .image {
 	width: 25rem;
+	height: 15rem;
 }
 .project-title {
 	margin: 0;
@@ -221,7 +239,7 @@ Projects
 .image-height {
 	height: 250px;
 }
-.tilt-in-fwd-tr {
+/* .tilt-in-fwd-tr {
 	-webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 	animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -249,4 +267,4 @@ Projects
 		transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
 		opacity: 1;
 	}
-}
+} */

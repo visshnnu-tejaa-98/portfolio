@@ -1,10 +1,20 @@
 import './styles/Contact.css';
+import React, { useEffect } from 'react';
+
 const Contact = () => {
+	useEffect(() => {
+		const AOS = window.AOS;
+		AOS.init({
+			duration: 1000,
+		});
+	});
 	return (
 		<div className='contact container mb-5' id='contact'>
-			<h1 className='cursive-1 center brown-text '>Contact</h1>
+			<h1 className='cursive-1 center brown-text ' data-aos='fade-in'>
+				Contact
+			</h1>
 			<div className='row mt-5'>
-				<div className='col s12 m6 l6'>
+				<div className='col s12 m6 l6' data-aos='slide-left'>
 					<div className='col s12 l6 center'>
 						<div className='mapouter'>
 							<div className='gmap_canvas'>
@@ -21,7 +31,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				<div className='col s12 m6 l6 '>
+				<div className='col s12 m6 l6 ' data-aos='slide-right'>
 					<form action='https://formspree.io/f/xbjqjqqg' method='POST'>
 						<div className='input-field'>
 							<input

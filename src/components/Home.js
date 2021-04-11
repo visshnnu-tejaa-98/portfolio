@@ -1,10 +1,21 @@
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Profile from '../images/profile.png';
 const Home = () => {
+	useEffect(() => {
+		const AOS = window.AOS;
+		AOS.init({
+			duration: 1000,
+		});
+	});
 	return (
 		<div className='home center my-3' id='home'>
-			<img src={Profile} alt='profile-img' className='profile-img z-depth-2 slide-bottom' />
-			<div className='scale-up-center'>
+			<img
+				src={Profile}
+				data-aos='zoom-in-down'
+				alt='profile-img'
+				className='profile-img z-depth-2 slide-bottom'
+			/>
+			<div className='scale-up-center' data-aos='zoom-in-up'>
 				<p className='wish '>
 					Hello 👋<span className='emoji' aria-label='Wave'></span>
 				</p>
