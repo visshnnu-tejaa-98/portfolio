@@ -40,6 +40,8 @@ const Card = ({ project, image, index }) => {
 								return <i className='devicon-express-original colored project-devicon'></i>;
 							} else if (stack === 'mongodb') {
 								return <i className='devicon-mongodb-plain colored project-devicon'></i>;
+							} else if (stack === 'npm') {
+								return <i class='devicon-npm-original-wordmark colored project-devicon'></i>;
 							} else {
 								return 0;
 							}
@@ -48,7 +50,8 @@ const Card = ({ project, image, index }) => {
 
 					<div className='center'>
 						<a href={project.frontendURL} className='waves-effect waves-light btn m-3 brown'>
-							<i className='material-icons left'>code</i>Frontend
+							<i className='material-icons left'>code</i>
+							{project.category === 'npm' ? 'Code' : 'Frontend'}
 						</a>
 
 						<a
@@ -59,10 +62,11 @@ const Card = ({ project, image, index }) => {
 									: 'waves-effect waves-light btn m-3 brown hide'
 							}
 						>
-							<i className='material-icons left'>code </i>backend
+							<i className='material-icons left'>code </i>
+							{project.category === 'npm' ? 'Demo' : 'Backend'}
 						</a>
 						<a href={project.hostedURL} className='waves-effect waves-light btn m-3 brown'>
-							<i className='material-icons left'>live_tv </i>preview
+							<i className='material-icons left'>live_tv </i>Preview
 						</a>
 					</div>
 				</div>

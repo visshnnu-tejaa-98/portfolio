@@ -104,6 +104,22 @@ const Skills = () => {
 				>
 					<i className='devicon-c-plain colored devicon'></i>
 				</div>
+				<div
+					className='col s4 l2 center my-3 offset-l4'
+					data-aos='zoom-in'
+					data-aos-offset='0'
+					data-aos-duration='100'
+				>
+					<i class='devicon-npm-original-wordmark colored devicon'></i>
+				</div>
+				<div
+					className='col s4 l2 center my-3 '
+					data-aos='zoom-in'
+					data-aos-offset='50'
+					data-aos-duration='100'
+				>
+					<i class='devicon-redux-original colored devicon'></i>
+				</div>
 			</div>
 		</div>
 	);

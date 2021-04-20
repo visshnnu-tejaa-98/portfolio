@@ -246,6 +246,18 @@ let projectsList = [
 		frontendURL: 'https://github.com/visshnnu-tejaa-98/day_9_PAN_card_registration_form',
 		image: 'https://drive.google.com/file/d/1vWAmVO0VQSuwUubVLfpKGDW6PDZmX7mJ/view?usp=sharing',
 	},
+	{
+		_id: 21,
+		title: 'OTP Manager',
+		descripyion:
+			'This is an npm package which generated the OTP and verifies the OTP. we can directly import this package and it will be ready to use',
+		category: 'npm',
+		stack: ['html', 'css', 'javascript', 'react', 'node', 'express', 'mongodb', 'npm'],
+		hostedURL: 'https://www.npmjs.com/package/otp-manager-node',
+		frontendURL: 'https://github.com/visshnnu-tejaa-98/otp-manager-frontend',
+		backendURL: 'https://otp-manager-demo.netlify.app/',
+		image: 'https://drive.google.com/file/d/1vWAmVO0VQSuwUubVLfpKGDW6PDZmX7mJ/view?usp=sharing',
+	},
 ];
 
 module.exports = projectsList;

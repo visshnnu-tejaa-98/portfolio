@@ -22,6 +22,7 @@ import SpiceyHut from '../images/project-images/spicey hut.PNG';
 import SunriseSunset from '../images/project-images/sunrise sunset.PNG';
 import TechBlogs from '../images/project-images/tech blogs.PNG';
 import TodoApp from '../images/project-images/todo app.PNG';
+import OTP from '../images/project-images/otp manager.PNG';
 const Projects = () => {
 	const [projects, setProjects] = useState(
 		projectsList.filter((project) => project.category === 'fullstack')
@@ -48,6 +49,10 @@ const Projects = () => {
 		let frontedProjects = projectsList.filter((project) => project.category === 'frontend');
 		setProjects(frontedProjects);
 	};
+	const npm = () => {
+		let npmProjects = projectsList.filter((project) => project.category === 'npm');
+		setProjects(npmProjects);
+	};
 	const vanellajs = () => {
 		let vannelajsProjects = projectsList.filter((project) => project.category === 'vennila');
 		setProjects(vannelajsProjects);
@@ -62,8 +67,8 @@ const Projects = () => {
 				<h1 className='cursive-1 center brown-text my-5 '>Projects</h1>
 				{/* <p className='center filter-msg'>You can filter the projects by selecting here</p> */}
 
-				<div className='row'>
-					<div className='col s6 l3 center'>
+				<div className='row center'>
+					<div className='col s6 l2 center offset-l1'>
 						<button
 							className='waves-effect brown waves-light btn mb-5'
 							data-aos='fade-in'
@@ -72,7 +77,7 @@ const Projects = () => {
 							fullstack
 						</button>
 					</div>
-					<div className='col s6 l3 center'>
+					<div className='col s6 l2 center'>
 						<button
 							className='waves-effect brown waves-light btn mb-5'
 							data-aos='fade-in'
@@ -81,7 +86,7 @@ const Projects = () => {
 							frontend
 						</button>
 					</div>
-					<div className='col s6 l3 center'>
+					<div className='col s6 l2 center'>
 						<button
 							className='waves-effect brown waves-light btn mb-5'
 							data-aos='fade-in'
@@ -90,7 +95,16 @@ const Projects = () => {
 							vanella js
 						</button>
 					</div>
-					<div className='col s6 l3 center'>
+					<div className='col s6 l2 center'>
+						<button
+							className='waves-effect brown waves-light btn mb-5'
+							data-aos='fade-in'
+							onClick={npm}
+						>
+							npm packages
+						</button>
+					</div>
+					<div className='col s6 l2 center'>
 						<button
 							className='waves-effect brown waves-light btn mb-5'
 							data-aos='fade-in'
@@ -142,6 +156,8 @@ const Projects = () => {
 						return <Card project={project} image={ObesityBannar} index={idx} />;
 					} else if (project.title === 'Pancard Updation Form') {
 						return <Card project={project} image={Pancard} index={idx} />;
+					} else if (project.title === 'OTP Manager') {
+						return <Card project={project} image={OTP} index={idx} />;
 					} else {
 						return ' ';
 					}
