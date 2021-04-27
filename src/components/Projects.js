@@ -23,6 +23,7 @@ import SunriseSunset from '../images/project-images/sunrise sunset.PNG';
 import TechBlogs from '../images/project-images/tech blogs.PNG';
 import TodoApp from '../images/project-images/todo app.PNG';
 import OTP from '../images/project-images/otp manager.PNG';
+import TTT from '../images/project-images/tic tac toe.PNG';
 const Projects = () => {
 	const [projects, setProjects] = useState(
 		projectsList.filter((project) => project.category === 'fullstack')
@@ -158,6 +159,8 @@ const Projects = () => {
 						return <Card project={project} image={Pancard} index={idx} />;
 					} else if (project.title === 'OTP Manager') {
 						return <Card project={project} image={OTP} index={idx} />;
+					} else if (project.title === 'Tic Tac Toe') {
+						return <Card project={project} image={TTT} index={idx} />;
 					} else {
 						return ' ';
 					}

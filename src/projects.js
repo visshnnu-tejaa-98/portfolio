@@ -35,7 +35,7 @@ let projectsList = [
 		title: 'Oven Starvy Pizza',
 		descripyion:
 			'It is a clone of Oven starvy pizza, where you can order pizza from Oven Starvy Pizza using Razopay ',
-		category: 'fullstak',
+		category: 'fullstack',
 		stack: ['html', 'css', 'javascript', 'bootstrap', 'react', 'node', 'express', 'mongodb'],
 		hostedURL: 'https://oven-starvy-pizza.netlify.app/',
 		frontendURL: 'https://github.com/visshnnu-tejaa-98/oven-starvy-pizza-client',
@@ -75,6 +75,16 @@ let projectsList = [
 		hostedURL: 'https://visshnnu-react-todo-app.netlify.app/',
 		frontendURL: 'https://github.com/visshnnu-tejaa-98/react-todo-app',
 		image: 'https://drive.google.com/file/d/1WKuVWuHDt0cc5W1vc9XcNsCjFzTJloG6/view?usp=sharing',
+	},
+	{
+		_id: 22,
+		title: 'Tic Tac Toe',
+		descripyion: 'This is a simple Tic-Tac-Toe Game developed using react',
+		category: 'frontend',
+		stack: ['react', 'bootstrap'],
+		hostedURL: 'https://visshnnu-tic-tac-toe.netlify.app/',
+		frontendURL: 'https://github.com/visshnnu-tejaa-98/tic-tac-toe',
+		// image: 'https://drive.google.com/file/d/1WKuVWuHDt0cc5W1vc9XcNsCjFzTJloG6/view?usp=sharing',
 	},
 	{
 		_id: 6,
