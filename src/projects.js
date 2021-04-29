@@ -77,6 +77,17 @@ let projectsList = [
 		image: 'https://drive.google.com/file/d/1WKuVWuHDt0cc5W1vc9XcNsCjFzTJloG6/view?usp=sharing',
 	},
 	{
+		_id: 23,
+		title: 'Google Maps Clone',
+		descripyion:
+			'This application is basically a clone of google mpas, and it is developed by using React integrated with Mapbox API',
+		category: 'frontend',
+		stack: ['react', 'bootstrap'],
+		hostedURL: 'https://visshnnu-google-maps-clone.netlify.app/',
+		frontendURL: 'https://github.com/visshnnu-tejaa-98/googl-maps-clone-react',
+		// image: 'https://drive.google.com/file/d/1WKuVWuHDt0cc5W1vc9XcNsCjFzTJloG6/view?usp=sharing',
+	},
+	{
 		_id: 22,
 		title: 'Tic Tac Toe',
 		descripyion: 'This is a simple Tic-Tac-Toe Game developed using react',

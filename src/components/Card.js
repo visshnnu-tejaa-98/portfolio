@@ -49,13 +49,20 @@ const Card = ({ project, image, index }) => {
 					</p>
 
 					<div className='center'>
-						<a href={project.frontendURL} className='waves-effect waves-light btn m-3 brown'>
+						<a
+							href={project.frontendURL}
+							target='_blank'
+							rel='noreferrer'
+							className='waves-effect waves-light btn m-3 brown'
+						>
 							<i className='material-icons left'>code</i>
 							{project.category === 'npm' ? 'Code' : 'Frontend'}
 						</a>
 
 						<a
 							href={project.backendURL}
+							target='_blank'
+							rel='noreferrer'
 							className={
 								project.backendURL
 									? 'waves-effect waves-light btn m-3 brown'
@@ -65,7 +72,12 @@ const Card = ({ project, image, index }) => {
 							<i className='material-icons left'>code </i>
 							{project.category === 'npm' ? 'Demo' : 'Backend'}
 						</a>
-						<a href={project.hostedURL} className='waves-effect waves-light btn m-3 brown'>
+						<a
+							href={project.hostedURL}
+							target='_blank'
+							rel='noreferrer'
+							className='waves-effect waves-light btn m-3 brown'
+						>
 							<i className='material-icons left'>live_tv </i>Preview
 						</a>
 					</div>
